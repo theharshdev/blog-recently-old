@@ -1,0 +1,1035 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap5 CSS CDN --------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fontawesome CDN  --------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Jquery CDN --------------------------------------->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+    <!-- Google Fonts --------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS File --------------------------------------->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Custom Media Query CSS File --------------------------------------->
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- CSS Custom File for Animations --------------------------------------->
+    <link rel="stylesheet" href="keyframe.css">
+    
+    <title>HOME</title>
+</head>
+
+<body>
+
+    <!-- Preloader Starts --------------------------------------->
+    <div class="preloader" style="display: none;">
+        <span class="dot1 dot"></span>
+        <span class="dot2 dot"></span>
+        <span class="dot3 dot"></span>
+    </div>
+
+    <!-- Subscribe Popup Starts --------------------------------------->
+    <div class="container-fluid subBox" style="display: none;">
+        <div class="row justify-content-center align-items-center" style="height: 100vh;">
+            <div class="col-lg-8 col-md-11 col-sm-8">
+                <div class="row justify-content-center align-items-center subinnerBox m-0">
+                    <div class="col-md-5 p-0 d-none d-md-block">
+                        <img src="img/subscribe.webp" alt="..." width="100%">
+                    </div>
+                    <div class="col-md-7 p-0">
+                        <div class="p-sm-4 p-3">
+                            <h3 class="heading fs-4 mb-4">Sign Up for <br> Our Newsletter</h3>
+                            <form class="text-center">
+                                <input type="email" class="subInp d-block w-100" placeholder="Enter your email here"
+                                    required autocomplete="off">
+                                <button class="subBtn mt-4" type="submit">Submit <i
+                                        class="fa-solid fa-paper-plane"></i></button>
+                                <label for="checkpolicy"
+                                    class="checkpolicy d-flex justify-content-center align-items-center mt-3">
+                                    <input type="checkbox" id="checkpolicy" class="me-2" required autocomplete="off">
+                                    By checking this box, you confirm that you have read and are agreeing to our terms
+                                    of use regarding the storage of the data submitted through this form.
+                                </label>
+                            </form>
+                            <div class="mt-4 text-center">
+                                <i class="fa-brands fs-4 mx-2 fa-facebook icon-nav text-dark"></i>
+                                <i class="fa-brands fs-4 mx-2 fa-instagram icon-nav text-dark"></i>
+                                <i class="fa-brands fs-4 mx-2 fa-linkedin-in icon-nav text-dark"></i>
+                                <i class="fa-brands fs-4 mx-2 fa-twitch icon-nav text-dark"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-xmark closeSub"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home Link Button --------------------------------------->
+    <a href="index.html" class="mainLogo">HOME</a>
+
+    <!-- Sidebar Vertical Navbar Starts --------------------------------------->
+    <div class="sidenav">
+        <div class="menu">
+            <i class="fa-solid fa-bars icon-nav"></i>
+        </div>
+        <div class="social">
+            <i class="fa-brands fs-4 my-2 fa-facebook icon-nav"></i><br>
+            <i class="fa-brands fs-4 my-2 fa-instagram icon-nav"></i><br>
+            <i class="fa-brands fs-4 my-2 fa-linkedin-in icon-nav"></i><br>
+            <i class="fa-brands fs-4 my-2 fa-twitch icon-nav"></i>
+        </div>
+    </div>
+
+    <!-- Navigation Menu Starts --------------------------------------->
+    <div class="sidemenu">
+        <ul class="p-0 m-0 list-unstyled text-center">
+            <li class="my-3"><a href="index.html" class="listItem">Home</a></li>
+            <li class="my-3"><a href="about.html" class="listItem">About</a></li>
+            <li class="my-3"><a href="contact.html" class="listItem">Contact Us</a></li>
+            <li class="my-3"><a href="login.html" class="listItem">Login</a>
+            </li>
+        </ul>
+        <i class="fa-solid fa-xmark fs-2 icon-nav closeBox"></i>
+        <div class="social-2">
+            <i class="fa-brands fs-4 mx-2 fa-facebook icon-nav"></i>
+            <i class="fa-brands fs-4 mx-2 fa-instagram icon-nav"></i>
+            <i class="fa-brands fs-4 mx-2 fa-linkedin-in icon-nav"></i>
+            <i class="fa-brands fs-4 mx-2 fa-twitch icon-nav"></i>
+        </div>
+    </div>
+
+    <!-- Search Box Starts --------------------------------------->
+    <div class="searchBox p-4 p-md-5">
+        <form class="formWidth">
+            <div class="d-flex justify-content-center align-items-center position-relative">
+                <input type="text" placeholder="Search here..." class="inputSearch">
+                <button type="submit" class="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </form>
+        <i class="fa-solid fa-xmark fs-2 closeBox"></i>
+        <div class="social-2">
+            <i class="fa-brands fs-4 mx-2 fa-facebook icon-nav"></i>
+            <i class="fa-brands fs-4 mx-2 fa-instagram icon-nav"></i>
+            <i class="fa-brands fs-4 mx-2 fa-linkedin-in icon-nav"></i>
+            <i class="fa-brands fs-4 mx-2 fa-twitch icon-nav"></i>
+        </div>
+    </div>
+
+    <!-- Search Button --------------------------------------->
+    <div class="search">
+        <i class="fa-solid fa-magnifying-glass searchIcon icon-nav"></i>
+    </div>
+
+    <!-- Home Page Background Image Box --------------------------------------->
+    <div class="bg bgHome" id="bgChange"></div>
+
+    <!-- Mobile or Small Devices Categories Box --------------------------------------->
+    <div class="w-100 position-relative" style="height: 100vh;">
+        <div class="testHeroBox">
+            <div class="mb-5 categryMobBox">
+                <h3 class="heading fs-5 fw-bold colorLight">CATEGORIES</h3>
+                <div class="mt-4">
+                    <a href="#" onclick="filterSelection('Sports')" class="categryMob cateSports">Sports</a>
+                    <a href="#" onclick="filterSelection('Technology')" class="categryMob cateTechnology">Technology</a>
+                    <a href="#" onclick="filterSelection('Food')" class="categryMob cateFood">Food</a>
+                    <a href="#" onclick="filterSelection('Travel')" class="categryMob cateTravel">Travel</a>
+                    <a href="#" onclick="filterSelection('Fashion')" class="categryMob cateFashion">Fashion</a>
+                    <a href="#" onclick="filterSelection('Beauty')" class="categryMob cateBeauty">Beauty</a>
+                    <a href="#" onclick="filterSelection('Ai')" class="categryMob cateAi">AI</a>
+                    <a href="#" onclick="filterSelection('Bussiness')" class="categryMob cateBussiness">Bussiness</a>
+                    <a href="#" onclick="filterSelection('Arts')" class="categryMob cateArts">Arts</a>
+                    <a href="#" onclick="filterSelection('Health')" class="categryMob cateHealth">Health</a>
+                    <a href="#" onclick="filterSelection('All')" class="categryMob cateAll">All</a>
+                </div>
+            </div>
+            <h1 class="mainHeading" id="mainHeading">Travel <br>Technology <br>Finanace <br>& Many More!</h1>
+        </div>
+        <span class="toDown"><i class="fa-solid fa-angle-down icon-nav"></i></span>
+    </div>
+
+    <!-- Category Dropdown for large screen size --------------------------------------->
+    <div class="categry">
+        <span class="cateBtn" id="cateBtn">CATEGORIES&nbsp;<i class="fa-solid fa-angle-down"
+                id="dropdownArrow"></i></span>
+        <ul class="p-0 m-0 list-unstyled text-end cateList" id="cateList" style="display: none;">
+            <li class="listItem cateSports" onclick="filterSelection('Sports')">SPORTS</li>
+            <li class="listItem cateTechnology" onclick="filterSelection('Technology')">TECHNOLOGY</li>
+            <li class="listItem cateFood" onclick="filterSelection('Food')">FOOD</li>
+            <li class="listItem cateTravel" onclick="filterSelection('Travel')">TRAVEL</li>
+            <li class="listItem cateFashion" onclick="filterSelection('Fashion')">FASHION</li>
+            <li class="listItem cateBeauty" onclick="filterSelection('Beauty')">BEAUTY</li>
+            <li class="listItem cateAi" onclick="filterSelection('Ai')">AI</li>
+            <li class="listItem cateBussiness" onclick="filterSelection('Bussiness')">BUSSINESS</li>
+            <li class="listItem cateArts" onclick="filterSelection('Arts')">ARTS</li>
+            <li class="listItem cateHealth" onclick="filterSelection('Health')">HEALTH</li>
+            <li class="listItem cateAll" onclick="filterSelection('All')">All</li>
+        </ul>
+    </div>
+
+    <!-- Blog Card Container Starts --------------------------------------->
+    <div class="container my-5">
+        <div class="row mx-4">
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Sports">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/drawn.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">SPORTS</p>
+                            <h2 class="blogHeading">The Mental Game: Unlocking Peak Performance in Sports</h2>
+                            <p class="blogDescription">Explore the critical role of mental preparation in sports and
+                                how it can elevate an athlete's performance to new heights.</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Sports">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/fashion.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Bussiness">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/food.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Bussiness">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/bussiness.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Bussiness">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/sports.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Food">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/technology.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Food">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/travel.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Ai">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/subscribe.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Ai">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/contact.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Ai">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/about.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Fashion">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/robot.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Travel">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/drawn.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Travel">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/ai.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Beauty">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/art.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Beauty">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/fashion.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Beauty">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/health.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Beauty">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/travel.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Subscribe Card Box --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3">
+                <a class="blogBox d-block h-100">
+                    <div class="blogBox1 px-sm-4 py-sm-5 py-4 px-3">
+                        <h2 class="colorDark heading fs-3 fw-bold">Subscribe to our Newsletter</h2>
+                        <p class="mt-5 miniFont colorDarkSecondary">Strive for tech news and insights? Subscribe
+                            to our
+                            newsletter and stay
+                            up-to-date with the
+                            latest tech trends, expert insights, and exclusive content.</p>
+                        <form>
+                            <input type="text" placeholder="Enter your name" required class="subInp px-3 py-2 w-100">
+                            <input type="email" placeholder="Enter your email" required
+                                class="subInp px-3 py-2 w-100 mt-3">
+                            <div class="mt-4 text-center">
+                                <button type="submit" class="subBtn">SUBSCRIBE</button>
+                            </div>
+                            <label for="checkpolicy"
+                                class="checkpolicy d-flex justify-content-center colorDarkSecondary align-items-center mt-4">
+                                <input type="checkbox" id="checkpolicy" class="me-2" required autocomplete="off">
+                                By checking this box, you confirm that you have read and are agreeing to our
+                                terms
+                                of use regarding the storage of the data submitted through this form.
+                            </label>
+                            <div class="mt-4 text-center">
+                                <i class="fa-brands fs-4 mx-2 fa-facebook icon-nav text-dark"></i>
+                                <i class="fa-brands fs-4 mx-2 fa-instagram icon-nav text-dark"></i>
+                                <i class="fa-brands fs-4 mx-2 fa-linkedin-in icon-nav text-dark"></i>
+                                <i class="fa-brands fs-4 mx-2 fa-twitch icon-nav text-dark"></i>
+                            </div>
+                        </form>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Health">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/disclaimer.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Health">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/privacy.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Technology">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/beauty.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Technology">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/404.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Technology">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/ai.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Arts">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/drawn.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Blog Card Starts --------------------------------------->
+            <div class="col-lg-4 col-md-6 col-sm-10 my-3 blogContainer Arts">
+                <a href="blogdetails.html" class="blogBox d-block h-100">
+                    <div class="blogBox1">
+                        <div class="blogImgBox" style="background-image: url('img/food.webp');"></div>
+                        <div class="blogText">
+                            <p class="categry-tag">CATEGORIES</p>
+                            <h2 class="blogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                            <p class="blogDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Obcaecati
+                                accusamus quam iure, est itaque, aperiam .</p>
+                        </div>
+                        <div class="blogFooter">
+                            <div class="blogFooter1 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">3 MIN READ</p>
+                                    <p class="mb-0">SHARES: 44</p>
+                                </div>
+                            </div>
+                            <div class="blogFooter2 w-100">
+                                <div class="d-flex justify-content-between align-items-center px-4 py-3 ">
+                                    <p class="mb-0">432 VIEWS</p>
+                                    <p class="mb-0">READ MORE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- Bottom Navigation buttons --------------------------------------->
+        <div class="d-flex justify-content-between align-items-center mx-4 my-4 py-5">
+
+            <!-- Previous button --------------------------------------->
+            <a href="#" class="heroBtn m-2"><i class="fa-solid fa-angle-left"></i>&nbsp;PREVIOUS</a>
+
+            <!-- Next button --------------------------------------->
+            <a href="#" class="heroBtn m-2">NEXT&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+        </div>
+    </div>
+
+    <!-- Footer Starts here --------------------------------------->
+    <div class="container-fluid footerBg">
+        <div class="container mt-5">
+            <div class="row mx-4 py-5">
+                <div class="col-lg-5 my-4">
+                    <h2 class="heading fs-2 fw-light colorLight">LOGO</h2>
+                    <p class="colorLight fs-6 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                        nulla
+                        deserunt nihil nisi fuga optio
+                        ratione iure unde eius dolorum facilis consectetur minima iste cupiditate autem consequatur,
+                        libero,
+                        repellat suscipit!</p>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 my-4">
+                    <h2 class="heading fs-5 colorLight">CATEGORIES</h2>
+                    <ul class="list-unstyled p-0 m-0">
+                        <li class="footerCategory toTop cateSports" onclick="filterSelection('Sports')">Sports</li>
+                        <li class="footerCategory toTop cateTechnology" onclick="filterSelection('Technology')">
+                            Technology</li>
+                        <li class="footerCategory toTop cateFood" onclick="filterSelection('Food')">Food</li>
+                        <li class="footerCategory toTop cateTravel" onclick="filterSelection('Travel')">Travel</li>
+                        <li class="footerCategory toTop cateFashion" onclick="filterSelection('Fashion')">Fashion</li>
+                        <li class="footerCategory toTop cateBeauty" onclick="filterSelection('Beauty')">Beauty</li>
+                        <li class="footerCategory toTop cateAi" onclick="filterSelection('Ai')">AI</li>
+                        <li class="footerCategory toTop cateBussiness" onclick="filterSelection('Bussiness')">Bussiness
+                        </li>
+                        <li class="footerCategory toTop cateArts" onclick="filterSelection('Arts')">Arts</li>
+                        <li class="footerCategory toTop cateHealth" onclick="filterSelection('Health')">Health</li>
+                        <li class="footerCategory toTop cateHealth" onclick="filterSelection('All')">All</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 my-4">
+                    <h2 class="heading fs-5 colorLight">LINKS</h2>
+                    <ul class="list-unstyled p-0 m-0">
+                        <li><a href="index.html" class="footerLinks">Home</a></li>
+                        <li><a href="about.html" class="footerLinks">About Us</a></li>
+                        <li><a href="contact.html" class="footerLinks">Contact Us</a></li>
+                        <li><a href="login.html" class="footerLinks">Login</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 my-4">
+                    <div class="mb-5">
+                        <!-- Footer Subscribe Form --------------------------------------->
+                        <form>
+                            <input type="email" placeholder="Enter email address" class="mainInputs d-block w-100">
+                            <button type="submit" class="footerSubscribe mt-3">Subscribe</button>
+                        </form>
+                    </div>
+                    <ul class="list-unstyled p-0 m-0">
+                        <li><a href="tel:+91 8737812696" class="footerLinks"><i class="fa-solid fa-phone"></i> +91
+                                8737812696</a></li>
+                        <li><a href="mailto:knp.harsh@gmail.com" class="footerLinks"><i class="fa-solid fa-at"></i>
+                                knp.harsh@gmail.com</a></li>
+                    </ul>
+                    <div class="mt-5">
+                        <i class="fa-brands fs-4 fa-facebook icon-nav"></i>
+                        <i class="fa-brands fs-4 ms-2 fa-instagram icon-nav"></i>
+                        <i class="fa-brands fs-4 ms-2 fa-linkedin-in icon-nav"></i>
+                        <i class="fa-brands fs-4 ms-2 fa-twitch icon-nav"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="d-md-flex justify-content-between align-items-center mx-4 border-top py-3">
+                <p>
+                    <a href="privacy.html" class="footerLinks">PRIVACY POLICY</a><br>
+                    <a href="desclaimer.html" class="footerLinks">DISCLAIMER</a>
+                </p>
+                <p class="colorLight mb-0">Designed & Developed by <a href="#" class="footerLinks">HARSH KUSHWAHA</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- To Top Button --------------------------------------->
+    <i class="fa-solid fa-angle-up toTopBtn" id="toTopBtn" style="display: none;"></i>
+
+    <!-- Custom JavaScipt File Link --------------------------------------->
+    <script src="main.js"></script>
+</body>
+
+</html>

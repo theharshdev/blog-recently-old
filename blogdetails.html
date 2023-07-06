@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap5 CSS CDN -------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fontawesome CDN -------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Jquery CDN -------------------------------------->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+    <!-- Google Fonts Link -------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS Link -------------------------------------->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Custom Responsive CSS Link -------------------------------------->
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- Animation CSS Link -------------------------------------->
+    <link rel="stylesheet" href="keyframe.css">
+
+    <title>Blog Details</title>
+</head>
+
+<body>
+
+    <!-- Subscribe Popup -------------------------------------->
+    <div class="container-fluid subBox" style="display: none;">
+        <div class="row justify-content-center align-items-center" style="height: 100vh;">
+            <div class="col-lg-8 col-md-11 col-sm-8">
+                <div class="row justify-content-center align-items-center subinnerBox m-0">
+                    <div class="col-md-5 p-0 d-none d-md-block">
+                        <img src="img/subscribe.webp" alt="..." width="100%">
+                    </div>
+                    <div class="col-md-7 p-0">
+                        <div class="p-4">
+                            <h3 class="heading fs-4 mb-4">Sign Up for <br> Our Newsletter</h3>
+                            <form class="text-center">
+                                <input type="email" class="subInp d-block w-100" placeholder="Enter your email here"
+                                    required autocomplete="off">
+                                <button class="subBtn mt-4" type="submit">Submit <i
+                                        class="fa-solid fa-paper-plane"></i></button>
+                                <label for="checkpolicy"
+                                    class="checkpolicy d-flex justify-content-center align-items-center mt-3">
+                                    <input type="checkbox" id="checkpolicy" class="me-2" required autocomplete="off">
+                                    By checking this box, you confirm that you have read and are agreeing to our terms
+                                    of use regarding the storage of the data submitted through this form.
+                                </label>
+                            </form>
+                            <div class="mt-4 text-center">
+                                <i class="fa-brands fs-4 mx-2 fa-facebook icon-nav text-dark"></i>
+                                <i class="fa-brands fs-4 mx-2 fa-instagram icon-nav text-dark"></i>
+                                <i class="fa-brands fs-4 mx-2 fa-linkedin-in icon-nav text-dark"></i>
+                                <i class="fa-brands fs-4 mx-2 fa-twitch icon-nav text-dark"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-xmark closeSub"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home Page Button Link -------------------------------------->
+    <a href="index.html" class="mainLogo">HOME</a>
+
+    <!-- Sidebar Vertical Navbar Starts -------------------------------------->
+    <div class="sidenav">
+        <div class="menu">
+            <i class="fa-solid fa-bars icon-nav"></i>
+        </div>
+        <div class="social">
+            <i class="fa-brands fs-4 my-2 fa-facebook icon-nav"></i><br>
+            <i class="fa-brands fs-4 my-2 fa-instagram icon-nav"></i><br>
+            <i class="fa-brands fs-4 my-2 fa-linkedin-in icon-nav"></i><br>
+            <i class="fa-brands fs-4 my-2 fa-twitch icon-nav"></i>
+        </div>
+    </div>
+
+    <!-- Navigation Menu Starts -------------------------------------->
+    <div class="sidemenu">
+        <ul class="p-0 m-0 list-unstyled text-center">
+            <li class="my-3"><a href="index.html" class="listItem">Home</a></li>
+            <li class="my-3"><a href="about.html" class="listItem">About</a></li>
+            <li class="my-3"><a href="contact.html" class="listItem">Contact Us</a></li>
+            <li class="my-3"><a href="login.html" class="listItem">Login</a>
+            </li>
+        </ul>
+        <i class="fa-solid fa-xmark fs-2 icon-nav closeBox"></i>
+        <div class="social-2">
+            <i class="fa-brands fs-4 mx-2 fa-facebook icon-nav"></i>
+            <i class="fa-brands fs-4 mx-2 fa-instagram icon-nav"></i>
+            <i class="fa-brands fs-4 mx-2 fa-linkedin-in icon-nav"></i>
+            <i class="fa-brands fs-4 mx-2 fa-twitch icon-nav"></i>
+        </div>
+    </div>
+
+    <!-- Background Image Box -------------------------------------->
+    <div class="bg" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9)), url(img/ai.webp);"></div>
+
+    <!-- Blog Container Box -------------------------------------->
+    <div class="container my-5 pt-5">
+        <div class="row mx-4">
+            <div class="col-lg-9 my-5">
+
+                <!-- Blog Description -------------------------------------->
+                <div class="blogDescription">
+
+                    <!-- Blog Heading -------------------------------------->
+                    <h1 class="colorLight heading fs-1 fw-bold">
+                        The Mental Game: Unlocking Peak Performance in Sports
+                    </h1>
+
+                    <!-- Blog Like, Share, Views Etc. -------------------------------------->
+                    <div class="d-md-flex d-block justify-content-between align-items-center">
+                        <div class="d-flex align-items-center mt-3 text-center text-sm-start">
+                            <p class="my-0 me-3 colorLight miniFont heading">VIEWS: 774</p>
+                            <p class="my-0 me-3 colorLight miniFont heading"><i class="fa-regular fa-thumbs-up"></i>
+                                121</p>
+                            <p class="my-0 me-3 colorLight miniFont heading"><i class="fa-regular fa-thumbs-down"></i>
+                                34
+                            </p>
+                            <p class="my-0 me-3 colorLight miniFont heading"><i class="fa-solid fa-share-nodes"></i>
+                                254</p>
+                            <p class="my-0 colorLight miniFont heading"><i class="fa-regular fa-comment-dots"></i>
+                                28</p>
+                        </div>
+                        <p class="m-0 colorLight miniFont heading mt-3 text-center text-sm-start">READ: 3 MINS</p>
+                    </div>
+
+                    <!-- Blog Main Image -------------------------------------->
+                    <img src="img/ai.webp" alt="..." width="100%" class="mt-5">
+
+                    <h2 class="fs-2 colorLight heading mt-5 mb-3">Developing a Strong Mindset</h2>
+
+                    <p class="colorLight">
+                        Achieving peak performance in sports goes beyond physical training; it requires a strong
+                        mindset. Athletes must cultivate mental resilience, focus, and confidence. This involves setting
+                        clear goals, visualizing success, and practicing positive self-talk. By training the mind as
+                        diligently as the body, athletes can enhance their mental fortitude and overcome challenges on
+                        and off the field.
+                    </p>
+
+                    <div class="blogHighlightTxt">
+                        <p class="m-0 p-0 colorLight heading">
+                            Explore the critical role of mental preparation in sports and how it can elevate an
+                            athlete's performance to new heights.
+                        </p>
+                    </div>
+
+                    <!-- Blog Secindary Image -------------------------------------->
+                    <img src="img/technology.webp" alt="..." width="100%" class="mt-5">
+
+                    <h2 class="fs-2 colorLight heading mt-5 mb-3"> Managing Pressure and Handling Stress</h2>
+                    <p class="colorLight mb-4">In the world of sports, pressure is inevitable. The ability to manage
+                        pressure
+                        effectively can be a game-changer. Techniques such as deep breathing, mindfulness, and
+                        visualization help athletes stay calm under pressure and perform at their best when it matters
+                        most. By developing stress management strategies, athletes can maintain clarity, make better
+                        decisions, and rise above challenging situations.</p>
+
+                    <h2 class="fs-2 colorLight heading mt-5 mb-3">Embracing the Power of Mental Imagery</h2>
+                    <p class="colorLight mb-4">Mental imagery, also known as visualization, is a powerful tool in
+                        sports. By
+                        vividly imagining successful performances, athletes activate the same neural pathways as
+                        physical practice, reinforcing muscle memory and boosting confidence. Visualization helps
+                        athletes refine technique, mentally rehearse strategies, and build a positive mindset.
+                        Incorporating regular mental imagery into training routines can contribute to improved
+                        performance on game day.</p>
+                    <p class="colorLight mb-4">Sports psychology research supports the notion that mental preparation is
+                        just as important as
+                        physical training. A strong mindset enables athletes to overcome self-doubt, handle pressure,
+                        and push through barriers. By setting clear and achievable goals, athletes can direct their
+                        focus and motivation toward continuous improvement. Moreover, practicing positive self-talk
+                        enhances confidence and fosters a resilient attitude in the face of adversity.</p>
+                    <p class="colorLight mb-4">When it comes to managing pressure, athletes can employ various
+                        techniques. Deep breathing
+                        exercises calm the nervous system, allowing athletes to center themselves and regain focus.
+                        Mindfulness practices, such as meditation, help athletes stay present in the moment, avoiding
+                        distractions and optimizing performance. Visualization techniques involve creating vivid mental
+                        images of successful performances, allowing athletes to rehearse strategies, develop muscle
+                        memory, and boost self-belief.</p>
+                    <p class="colorLight mb-4">ncorporating mental imagery into training routines is another essential
+                        aspect of mental
+                        preparation. Athletes can visualize themselves executing flawless technique, achieving personal
+                        records, or overcoming challenges. By mentally rehearsing scenarios, athletes gain confidence
+                        and familiarity, making it easier to execute those actions during actual competitions. Regular
+                        mental imagery sessions enhance performance by honing concentration, enhancing focus, and
+                        reinforcing positive habits.</p>
+                    <p class="colorLight mb-4">In conclusion, unlocking peak performance in sports requires more than
+                        physical prowess.
+                        Developing a strong mindset, managing pressure effectively, and embracing the power of mental
+                        imagery are critical components of mental preparation. By dedicating time and effort to mental
+                        training alongside physical training, athletes can elevate their performance, overcome
+                        obstacles, and achieve success in their chosen sports.</p>
+                </div>
+
+                <!-- Share the Blog Box -------------------------------------->
+                <div class="blogShareable my-5 text-center">
+                    <h3 class="heading colorLight fs-4">Share this article</h3>
+                    <div class="my-4">
+                        <i class="fa-brands fs-4 mx-2 fa-facebook icon-nav"></i>
+                        <i class="fa-brands fs-4 mx-2 fa-instagram icon-nav"></i>
+                        <i class="fa-brands fs-4 mx-2 fa-linkedin-in icon-nav"></i>
+                        <i class="fa-brands fs-4 mx-2 fa-twitch icon-nav"></i>
+                    </div>
+                    <div class="position-relative shareableLinkWidth d-inline-block mb-3">
+                        <input type="text" class="shareableLink" id="shareableLink">
+                        <i class="fa-regular fa-copy copyBlogLink" id="copyBlogLink"></i>
+                        <i class="fa-regular fa-circle-check copiedBlogLink" id="copiedBlogLink"
+                            style="display: none;"></i>
+                    </div>
+                    <p class="colorLight miniFont">Shareable URL</p>
+                </div>
+
+                <!-- Blog Comments Section -------------------------------------->
+                <div class="blogComments">
+                    <h3 class="heading colorLight fs-3 my-5">Comments</h3>
+                    <div class="commentBox my-4">
+                        <p class="colorLight miniFont mb-2"><span class="heading">NAME:</span> @username</p>
+                        <p class="colorLight miniFont m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et,
+                            quisquam.</p>
+                    </div>
+                    <div class="commentBox my-4">
+                        <p class="colorLight miniFont mb-2"><span class="heading">NAME:</span> @username</p>
+                        <p class="colorLight miniFont m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Placeat repudiandae repellendus aperiam alias dolorum! Fugiat labore velit veritatis veniam
+                            praesentium.z</p>
+                    </div>
+                    <div class="commentBox my-4">
+                        <p class="colorLight miniFont mb-2"><span class="heading">NAME:</span> @username</p>
+                        <p class="colorLight miniFont m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Quis voluptatum error ut itaque, provident animi maxime reprehenderit exercitationem est?
+                            Numquam, doloribus saepe ullam quos qui consequuntur laborum at sequi ut ipsum fugit, optio
+                            quidem recusandae!</p>
+                    </div>
+                </div>
+
+                <!-- Comment Form for the Blog -------------------------------------->
+                <div class="commentForm my-5">
+                    <h3 class="colorLight heading fs-5 mb-4">Leave a Comment</h3>
+                    <form action="">
+                        <textarea placeholder="Type your Comment here" class="commentFormTxt d-block w-100 my-4"
+                            required></textarea>
+                        <input type="text" placeholder="Enter your name" class="commentName d-block w-100 my-4"
+                            required>
+                        <div class="text-center commentBtnBox mt-5">
+                            <button class="commentBtn" type="submit">COMMENT <i
+                                    class="fa-solid fa-paper-plane commentPlane"></i></button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Read next Blogs Container -------------------------------------->
+                <div class="readNext pt-5">
+                    <h3 class="heading colorLight fs-2 text-center mb-5">Read next</h3>
+                    <div class="row justify-content-center">
+
+                        <!-- Blog 1 -------------------------------------->
+                        <div class="col-lg-4 col-md-6 col-sm-10 mt-4">
+                            <a href="blogdetails.html" class="blogBox d-block shadow-none">
+                                <div class="blogBox1">
+                                    <img src="img/ai.webp" alt="..." class="w-100">
+                                    <div class="blogDeatailText">
+                                        <p class="categry-tag">CATEGORIES</p>
+                                        <h2 class="recentBlogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Blog 2 -------------------------------------->
+                        <div class="col-lg-4 col-md-6 col-sm-10 mt-4">
+                            <a href="blogdetails.html" class="blogBox d-block shadow-none">
+                                <div class="blogBox1">
+                                    <img src="img/technology.webp" alt="..." class="w-100">
+                                    <div class="blogDeatailText">
+                                        <p class="categry-tag">CATEGORIES</p>
+                                        <h2 class="recentBlogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Blog 3 -------------------------------------->
+                        <div class="col-lg-4 col-md-6 col-sm-10 mt-4">
+                            <a href="blogdetails.html" class="blogBox d-block shadow-none">
+                                <div class="blogBox1">
+                                    <img src="img/ai.webp" alt="..." class="w-100">
+                                    <div class="blogDeatailText">
+                                        <p class="categry-tag">CATEGORIES</p>
+                                        <h2 class="recentBlogHeading">How AI is Revolutionizing the Tech Industry</h2>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Page Sidebar Box -------------------------------------->
+            <div class="col-lg-3 my-5">
+
+                <!-- Social Box for the blog section -------------------------------------->
+                <div class="blogSidebar">
+                    <h2 class="heading colorLight fs-4 fw-bold mb-5">LET'S GET SOCIAL</h2>
+
+                    <!-- Social Links Box -------------------------------------->
+                    <div class="shareSocial">
+                        <div class="d-flex justify-content-between align-items-center border-bottom pb-3">
+                            <p class="m-0 colorLight heading miniFont">FACEBOOK</p>
+                            <i class="fa-brands fs-4 mx-2 fa-facebook icon-nav"></i>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-4 border-bottom pb-3">
+                            <p class="m-0 colorLight heading miniFont">INSTAGRAM</p>
+                            <i class="fa-brands fs-4 mx-2 fa-instagram icon-nav"></i>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-4 border-bottom pb-3">
+                            <p class="m-0 colorLight heading miniFont">LINKEDIN</p>
+                            <i class="fa-brands fs-4 mx-2 fa-linkedin-in icon-nav"></i>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mt-4 border-bottom pb-3">
+                            <p class="m-0 colorLight heading miniFont">TWITCH</p>
+                            <i class="fa-brands fs-4 mx-2 fa-twitch icon-nav"></i>
+                        </div>
+                    </div>
+                    <div class="my-5 pt-3">
+                        <h2 class="heading colorLight mb-5 fs-4 fw-bold">RECENT POSTS</h2>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12 col-md-6 col-sm-10">
+
+                                <!-- Recent Blog Posts -------------------------------------->
+                                <a href="blogdetails.html" class="blogBox d-block mb-4 shadow-none">
+                                    <div class="blogBox1">
+                                        <img src="img/ai.webp" alt="..." class="w-100">
+                                        <div class="blogDeatailText">
+                                            <p class="categry-tag">CATEGORIES</p>
+                                            <h2 class="recentBlogHeading">How AI is Revolutionizing the Tech Industry
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-12 col-md-6 col-sm-10">
+
+                                <!-- Recent Blog Posts -------------------------------------->
+                                <a href="blogdetails.html" class="blogBox d-block mb-4 shadow-none">
+                                    <div class="blogBox1">
+                                        <img src="img/technology.webp" alt="..." class="w-100">
+                                        <div class="blogDeatailText">
+                                            <p class="categry-tag">CATEGORIES</p>
+                                            <h2 class="recentBlogHeading">How AI is Revolutionizing the Tech Industry
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-12 col-md-6 col-sm-10">
+
+                                <!-- Recent Blog Posts -------------------------------------->
+                                <a href="blogdetails.html" class="blogBox d-block mb-4 shadow-none">
+                                    <div class="blogBox1">
+                                        <img src="img/food.webp" alt="..." class="w-100">
+                                        <div class="blogDeatailText">
+                                            <p class="categry-tag">CATEGORIES</p>
+                                            <h2 class="recentBlogHeading">How AI is Revolutionizing the Tech Industry
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-12 col-md-6 col-sm-10">
+
+                                <!-- Recent Blog Posts -------------------------------------->
+                                <a href="blogdetails.html" class="blogBox d-block mb-4 shadow-none">
+                                    <div class="blogBox1">
+                                        <img src="img/fashion.webp" alt="..." class="w-100">
+                                        <div class="blogDeatailText">
+                                            <p class="categry-tag">CATEGORIES</p>
+                                            <h2 class="recentBlogHeading">How AI is Revolutionizing the Tech Industry
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subscribe Box or Card -------------------------------------->
+                    <h2 class="heading colorLight my-5 fs-4 fw-bold mt-5">SUBSCRIBE TO US</h2>
+
+                    <!-- Subscribe Box for Newsletter -------------------------------------->
+                    <a class="blogBox d-block mb-4 shadow-none">
+                        <div class="blogBox1 px-4 py-5">
+                            <h2 class="colorDark heading fs-5 fw-bold mb-4">Subscribe to our Newsletter</h2>
+                            <form>
+                                <input type="text" placeholder="Name" required class="subInp px-3 py-2 w-100 miniFont">
+                                <input type="email" placeholder="Email" required
+                                    class="subInp px-3 py-2 w-100 mt-3 miniFont">
+                                <div class="mt-4 text-center">
+                                    <button type="submit" class="subBtn p-2 miniFont">SUBSCRIBE</button>
+                                </div>
+                                <label for="checkpolicyDetail"
+                                    class="checkpolicy d-flex justify-content-center colorDarkSecondary align-items-center mt-4">
+                                    <input type="checkbox" id="checkpolicyDetail" class="me-2" required
+                                        autocomplete="off">
+                                    By checking this box, you confirm that you have read and are agreeing to our
+                                    terms
+                                    of use regarding the storage of the data submitted through this form.
+                                </label>
+                                <div class="mt-4 text-center">
+                                    <i class="fa-brands fs-4 mx-2 fa-facebook icon-nav text-dark"></i>
+                                    <i class="fa-brands fs-4 mx-2 fa-instagram icon-nav text-dark"></i>
+                                    <i class="fa-brands fs-4 mx-2 fa-linkedin-in icon-nav text-dark"></i>
+                                    <i class="fa-brands fs-4 mx-2 fa-twitch icon-nav text-dark"></i>
+                                </div>
+                            </form>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -------------------------------------->
+    <div class="container-fluid footerBg">
+        <div class="container mt-5">
+            <div class="row mx-4 py-5 justify-content-between">
+                <div class="col-lg-5 my-4">
+                    <h2 class="heading fs-2 fw-light colorLight">LOGO</h2>
+                    <p class="colorLight fs-6 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                        nulla
+                        deserunt nihil nisi fuga optio
+                        ratione iure unde eius dolorum facilis consectetur minima iste cupiditate autem consequatur,
+                        libero,
+                        repellat suscipit!</p>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 my-4">
+                    <h2 class="heading fs-5 colorLight">LINKS</h2>
+                    <ul class="list-unstyled p-0 m-0">
+                        <li><a href="index.html" class="footerLinks">Home</a></li>
+                        <li><a href="about.html" class="footerLinks">About Us</a></li>
+                        <li><a href="contact.html" class="footerLinks">Contact Us</a></li>
+                        <li><a href="login.html" class="footerLinks">Login</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 my-4">
+                    <div class="mb-5">
+                        <form>
+                            <input type="email" placeholder="Enter email address" class="mainInputs d-block w-100">
+                            <button type="submit" class="footerSubscribe mt-2">Subscribe</button>
+                        </form>
+                    </div>
+                    <ul class="list-unstyled p-0 m-0">
+                        <li><a href="tel:+91 8737812696" class="footerLinks"><i class="fa-solid fa-phone"></i> +91
+                                8737812696</a></li>
+                        <li><a href="mailto:knp.harsh@gmail.com" class="footerLinks"><i class="fa-solid fa-at"></i>
+                                knp.harsh@gmail.com</a></li>
+                    </ul>
+                    <div class="mt-5">
+                        <i class="fa-brands fs-4 fa-facebook icon-nav"></i>
+                        <i class="fa-brands fs-4 ms-2 fa-instagram icon-nav"></i>
+                        <i class="fa-brands fs-4 ms-2 fa-linkedin-in icon-nav"></i>
+                        <i class="fa-brands fs-4 ms-2 fa-twitch icon-nav"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="d-md-flex justify-content-between align-items-center mx-4 border-top py-3">
+                <p>
+                    <a href="privacy.html" class="footerLinks">PRIVACY POLICY</a><br>
+                    <a href="desclaimer.html" class="footerLinks">DISCLAIMER</a>
+                </p>
+                <p class="colorLight mb-0">Designed & Developed by <a href="#" class="footerLinks">HARSH
+                        KUSHWAHA</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- To Top Button in footer -------------------------------------->
+    <i class="fa-solid fa-angle-up toTopBtn" id="toTopBtn" style="display: none;"></i>
+
+    <!-- Custom JavaScript File Link -------------------------------------->
+    <script src="main.js"></script>
+</body>
+
+</html>

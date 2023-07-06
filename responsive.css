@@ -1,0 +1,215 @@
+/* Media Query for width - 1200px --------------------- */
+@media(max-width:1200px){
+
+}
+
+/* Media Query for width - 992px --------------------- */
+@media(max-width:992px){
+    .categryMobBox{
+        display: block;
+    }
+    .categry {
+        display: none;
+    }
+    .listItem {
+        color: var(--light);
+        font-size: 22px;
+    }
+    .blogImgBox {
+        height: 220px;
+    }
+    .aboutParagraph {
+        padding-left: 20px;
+        border-left: 3px solid var(--secondaryLight);
+        font-size: 15px;
+    }
+}
+
+
+/* Media Query for width - 778px --------------------- */
+@media(max-width:778px){
+    .shareableLinkWidth{
+        width: 80%;
+    } 
+    .blogHeading{
+        font-size: 22px;
+    }
+    .blogImgBox {
+        height: 180px;
+    }
+    .listItem {
+        color: var(--light);
+        font-size: 20px;
+    }
+}
+
+
+/* Media Query for width - 600px --------------------- */
+@media(max-width:600px){
+    .mainHeading {
+        font-size: 30px;
+    }
+
+    .formWidth {
+        width: 95%;
+    }
+ 
+    .icon-nav {
+        font-size: 24px;
+    }
+
+    .social-2 i {
+        margin: 0px 5px;
+    }
+
+    .cateBtn {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .cateBtn i {
+        font-size: 15px;
+    }
+
+    .categry {
+        position: absolute;
+        right: 50px;
+    }
+    .blogBox{
+        box-shadow: none;
+    }
+    .subInp {
+        font-size: 12px;
+    }
+    .aboutParagraph {
+        padding-left: 14px;
+        border-left: 2px solid var(--secondaryLight);
+        font-size: 12px;
+    }
+    .aboutImg{
+        box-shadow: none;
+        outline: 2px solid var(--light);
+    }
+    .txt404{
+        font-size: 120px;
+        font-weight: 900;
+    }
+    .shareableLinkWidth{
+        width: 90%;
+    }
+    .toTopBtn {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 19px;
+    }
+    .blogHeading{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .blogDescription{
+        font-size: 12px;
+    }   
+    .subInp{
+        font-size: 11px;
+        padding: 12px;
+    }
+    .subBtn {
+        padding: 6px 15px;
+        font-size: 11px;
+    }
+    .aboutSub {
+        padding: 22px 12px;
+    }
+    .aboutSubInp {
+        padding: 12px;
+        font-size: 11px;
+    }
+    .subAboutBtn {
+        padding: 10px 15px;
+        font-size: 11px;
+    }
+    .inputSearch {
+        padding: 14px 60px 14px 25px;
+        font-size: 12px;
+    }
+    .searchBtn {
+        right: 5px;
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 15px;
+    }
+    
+    .blogShareable{
+        padding: 20px 10px;
+    }
+    .commentForm {
+        padding: 20px 11px;
+    }
+    .commentBtn {
+        padding: 8px 19px;
+        font-size: 11px;
+    }
+    .commentFormTxt {
+        padding: 10px 8px;
+        font-size: 11px;
+    }
+    .commentName {
+        padding: 9px;
+        font-size: 11px;
+    }
+    .commentPlane {
+        font-size: 12px;
+    }
+    .contactBox {
+        padding: 30px 11px;
+    }
+    .mainInputs {
+        font-size: 10px;
+        padding: 12px 7px;
+    }
+    .submitBtn {
+        padding: 11px 22px;
+        font-size: 12px;
+    }
+    .contactSub {
+        padding: 25px 12px;
+        background-color: var(--light);
+        box-shadow: 6px 6px 13px black;
+    }
+}
+
+
+/* Media Query for width - 552px --------------------- */
+@media(max-width:552px){
+    .footerLinks{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .heroBtn {
+        padding: 9px 10px;
+        font-size: 11px;
+        font-weight: 600;
+        box-shadow: 2px 2px var(--light);
+    }
+    .shareableLinkWidth{
+        width: 95%;
+    }
+}
+
+
+/* Media Query for width - 430px --------------------- */
+@media(max-width:430px){
+    .shareableLinkWidth{
+        width: 100%;
+    }
+}
+
+/* Media Query for width - 360px --------------------- */
+@media(max-width:360px){
+    .txt404{
+        font-size: 110px;
+        font-weight: 800;
+    }
+}
